@@ -96,7 +96,7 @@ export default class Login extends Component {
                         }}
                     >
                         <div className="form-froup">
-                            <label htmlFor="username">username</label>
+                            <label htmlFor="username">Username</label>
                             <Input
                                 type="text"
                                 className="form-control"

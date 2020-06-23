@@ -21,8 +21,8 @@ export default class Profile extends Component {
                     </h3>
                 </header>
                 <p>
-                    <string>Token:</string>{" "}
-                    {currentUser.accessToken.subString(0, 20)} ...{" "}
+                    <strong>Token:</strong>{" "}
+                    {currentUser.accessToken.substring(0, 20)} ...{" "}
                     {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
                 </p>
                 <p>
